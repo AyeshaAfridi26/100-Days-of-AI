@@ -1,0 +1,165 @@
+# 100 Days of AI Challenge
+
+Welcome to my **100 Days of AI Learning Journey**! This repository documents my progress as I explore and master concepts in Artificial Intelligence, Machine Learning, and Python programming.
+
+## 📅 Challenge Details
+
+- **Start Date:** May 24, 2026
+- **Goal:** Complete 100 consecutive days of AI/ML learning
+- **Focus Areas:** Python Programming, Machine Learning, Data Science
+- **Repository:** Track progress, code, notes, and projects
+
+---
+
+## 📚 Repository Structure
+
+```
+100 Days of AI/
+├── Python/
+│   ├── 01_Introduction_to_Programming.ipynb
+│   ├── 02_Basic_Terminologies_of_Programming.ipynb
+│   ├── 03_Introduction_to_Python_.ipynb
+│   ├── 04_virtual_env.py
+│   └── 05_String_Manipulation.ipynb
+│
+├── Projects/
+│   └── (Future project directories will be added)
+│
+├── Notes/
+│   └── (Learning notes and summaries)
+│
+└── README.md
+```
+
+---
+
+## 🚀 Day 1 - Introduction to Programming & Python Basics
+
+### Topics Covered:
+1. **Introduction to Programming**
+   - Basic concepts of programming
+   - Why Python for AI/ML?
+   - Setting up the development environment
+   - Understanding programming paradigms
+
+2. **Basic Terminologies of Programming**
+   - Variables and data types
+   - Operators (arithmetic, logical, comparison)
+   - Control structures (if/else, loops)
+   - Functions and scope
+   - Basic debugging concepts
+
+3. **Introduction to Python**
+   - Python syntax and structure
+   - Writing your first Python program
+   - Understanding indentation
+   - Comments and documentation
+   - Python interactive mode vs scripts
+
+4. **Virtual Environment Setup**
+   - Creating isolated Python environments
+   - Installing packages with pip
+   - Managing dependencies
+   - Best practices for project setup
+
+5. **String Manipulation**
+   - String data type and operations
+   - String methods and formatting
+   - String slicing and indexing
+   - Regular expressions basics
+   - Practical string manipulation examples
+
+### Key Learnings:
+- ✅ Fundamentals of programming concepts
+- ✅ Python environment setup and configuration
+- ✅ Basic Python syntax and operations
+- ✅ String handling and manipulation techniques
+- ✅ Prerequisites for advanced AI/ML concepts
+
+### Resources Used:
+- Python Official Documentation
+- Interactive Jupyter Notebooks
+- Hands-on coding exercises
+
+---
+
+## 📊 Progress Tracking
+
+| Day | Topic | Status | Files |
+|-----|-------|--------|-------|
+| 1 | Introduction to Programming & Python Basics | ✅ Completed | 01-05 |
+| 2 | (To be added) | ⏳ Pending | - |
+| ... | ... | ... | ... |
+| 100 | (To be added) | ⏳ Pending | - |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Python 3.x
+- **Environment:** Virtual Environment (venv)
+- **Notebooks:** Jupyter Notebook
+- **Version Control:** Git & GitHub
+- **Future Tools:** NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch
+
+---
+
+## 💡 How to Use This Repository
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AyeshaAfridi26/100-Days-of-AI.git
+   cd 100-Days-of-AI
+   ```
+
+2. **Set up virtual environment (recommended):**
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows: env\Scripts\activate
+   ```
+
+3. **Explore the notebooks:**
+   ```bash
+   jupyter notebook
+   ```
+
+4. **Follow along with the daily lessons and exercises**
+
+---
+
+## 🎯 Goals for the 100 Days
+
+- **Week 1-2:** Python fundamentals and core concepts
+- **Week 3-4:** Data structures and algorithms
+- **Week 5-8:** Introduction to Data Science (NumPy, Pandas)
+- **Week 9-12:** Machine Learning basics (Scikit-learn)
+- **Week 13-16:** Deep Learning fundamentals
+- **Week 17+:** Advanced projects and specializations
+
+---
+
+## 📝 Notes
+
+- Each day's work is documented with explanations and examples
+- Code is well-commented for learning purposes
+- Notebooks include both theory and practical exercises
+- Progress updates will be made regularly
+
+---
+
+## 🤝 Connect
+
+- **GitHub:** [@AyeshaAfridi26](https://github.com/AyeshaAfridi26)
+- **Email:** (Add your contact if desired)
+
+---
+
+## 📄 License
+
+This repository is open for educational purposes. Feel free to learn and share!
+
+---
+
+**Remember:** Consistency is key. Every day of learning brings you closer to mastering AI! 🚀
+
+Last Updated: May 24, 2026 | Day 1 ✅
