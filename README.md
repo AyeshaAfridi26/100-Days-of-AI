@@ -18,6 +18,8 @@ Challenge Details
 │   ├── 03_Introduction_to_Python_.ipynb
 │   ├── 04_virtual_env.py
 │   └── 05_String_Manipulation.ipynb
+│   ├── 06_Operators.ipynb
+│   └── 07_List.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -66,6 +68,31 @@ Challenge Details
    - Regular expressions basics
    - Practical string manipulation examples
 
+## Day 2 - Operators and Lists in Python
+
+### Topics Covered:
+1. **Operators in Python**
+   - Arithmetic, Assignment, Comparison, Logical, Bitwise, Membership, Identity
+   - Operator precedence and associativity
+   - Practical examples and exercises
+2. **Lists in Python**
+   - Creating and accessing lists
+   - List methods and operations
+   - Slicing, indexing, and list comprehensions
+   - Nested lists
+   - Common use cases and best practices
+
+### Key Learnings:
+-  Mastered different types of operators in Python
+-  Learned how to create, manipulate, and use lists effectively
+-  Practiced with hands-on examples and exercises
+
+### Resources Used:
+- Python Official Documentation
+- Interactive Jupyter Notebooks
+- Coding exercises
+
+---
 
 ### Resources Used:
 - W3schools python structure
@@ -131,6 +158,7 @@ Challenge Details
 ##  Connect
 
 - **GitHub:** [@AyeshaAfridi26](https://github.com/AyeshaAfridi26)
+- **linkedin:** www.linkedin.com/in/ayesha-k-a8b827307
 
 ---
 
@@ -143,4 +171,5 @@ This repository is open for educational purposes. Feel free to learn and share!
 **Remember:** Consistency is key. Every day of learning brings you closer to mastering AI! 
 
 May 24, 2026 | Day 1 DONE
+May 25, 2026 | Day 2 DONE
 
