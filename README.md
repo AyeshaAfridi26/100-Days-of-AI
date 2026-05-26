@@ -71,11 +71,11 @@ Challenge Details
 ## Day 2 - Operators and Lists in Python
 
 ### Topics Covered:
-1. **Operators in Python**
+6. **Operators in Python**
    - Arithmetic, Assignment, Comparison, Logical, Bitwise, Membership, Identity
    - Operator precedence and associativity
    - Practical examples and exercises
-2. **Lists in Python**
+7. **Lists in Python**
    - Creating and accessing lists
    - List methods and operations
    - Slicing, indexing, and list comprehensions
@@ -87,30 +87,35 @@ Challenge Details
 -  Learned how to create, manipulate, and use lists effectively
 -  Practiced with hands-on examples and exercises
 
-### Resources Used:
-- Python Official Documentation
-- Interactive Jupyter Notebooks
-- Coding exercises
-
 ---
 
-### Resources Used:
-- W3schools python structure
-- Python Official Documentation
-- Interactive Jupyter Notebooks
 
+## Day 3 – Tuples, Sets, and Dictionaries in Python
+### Topics Covered:
+8. **Tuples in Python**
 
----
+- Creating and accessing tuples
+- Tuple immutability
+- Tuple methods and operations
+- Use cases for tuples
+- Sets in Python
 
-## Tech Stack
+9. **Creating and using sets**
+- Set operations (union, intersection, difference, symmetric difference)
+- Adding and removing elements
+- Practical applications of sets
+  
+9. **Dictionaries in Python**
+- Creating and accessing dictionaries
+- Adding, updating, and deleting key-value pairs
+- Dictionary methods
+- Iterating through dictionaries
+- Nested dictionaries
+### Key Learnings:
+ Understood the differences between tuples, sets, and dictionaries
+ Practiced common operations and methods for each data structure
+ Learned when to use each data structure in real-world scenarios
 
-- **Language:** Python 3.x
-- **Environment:** Virtual Environment (venv)
-- **Notebooks:** Jupyter Notebook
-- **Version Control:** Git & GitHub
-- **Future Tools:** NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch
-
----
 
 ##  How to Use This Repository
 
@@ -144,14 +149,6 @@ Challenge Details
 - **Week 13-16:** Deep Learning fundamentals
 - **Week 17+:** Advanced projects and specializations
 
----
-
-## Notes
-
-- Each day's work is documented with explanations and examples
-- Code is well-commented for learning purposes
-- Notebooks include both theory and practical exercises
-- Progress updates will be made regularly
 
 ---
 
@@ -172,4 +169,5 @@ This repository is open for educational purposes. Feel free to learn and share!
 
 May 24, 2026 | Day 1 DONE
 May 25, 2026 | Day 2 DONE
+May 26 2026 | Day 3 DONE
 
