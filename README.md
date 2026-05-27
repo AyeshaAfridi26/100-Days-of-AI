@@ -17,9 +17,13 @@ Challenge Details
 │   ├── 02_Basic_Terminologies_of_Programming.ipynb
 │   ├── 03_Introduction_to_Python_.ipynb
 │   ├── 04_virtual_env.py
-│   └── 05_String_Manipulation.ipynb
+│   ├── 05_String_Manipulation.ipynb
 │   ├── 06_Operators.ipynb
-│   └── 07_List.ipynb
+│   ├── 07_List.ipynb
+│   ├── 08_Tuple.ipynb
+│   ├── 09_Sets_and_Dictionaries.ipynb
+│   ├── 10_Conditional_Statements.ipynb
+│   └── 11_Loops.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -116,6 +120,29 @@ Challenge Details
  Practiced common operations and methods for each data structure
  Learned when to use each data structure in real-world scenarios
 
+---
+
+## Day 4 – Conditional Statements and Loops in Python
+### Topics Covered:
+10. **Conditional Statements in Python**
+- `if`, `elif`, and `else` statements
+- Nested conditionals
+- Comparison and logical operators in conditions
+- Conditional expressions (ternary operator)
+
+11. **Loops in Python**
+- `for` loops and iterating over sequences
+- `while` loops and loop conditions
+- Loop control statements (`break`, `continue`, `pass`)
+- Nested loops and the `range()` function
+- Practical examples and exercises
+
+### Key Learnings:
+-  Learned how to control program flow with conditional statements
+-  Mastered `for` and `while` loops for repetition
+-  Practiced loop control statements and nested loops
+
+---
 
 ##  How to Use This Repository
 
@@ -170,4 +197,5 @@ This repository is open for educational purposes. Feel free to learn and share!
 May 24, 2026 | Day 1 DONE
 May 25, 2026 | Day 2 DONE
 May 26 2026 | Day 3 DONE
+May 27, 2026 | Day 4 DONE
 
