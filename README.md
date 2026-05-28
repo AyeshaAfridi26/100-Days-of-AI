@@ -23,7 +23,9 @@ Challenge Details
 │   ├── 08_Tuple.ipynb
 │   ├── 09_Sets_and_Dictionaries.ipynb
 │   ├── 10_Conditional_Statements.ipynb
-│   └── 11_Loops.ipynb
+│   ├── 11_Loops.ipynb
+│   ├── 12_functions.ipynb
+│   └── 13_Arrays.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -144,6 +146,31 @@ Challenge Details
 
 ---
 
+## Day 5 – Functions and Arrays in Python
+### Topics Covered:
+12. **Functions in Python**
+- Defining and calling functions
+- Function parameters and arguments (positional, keyword, default)
+- Return values and the `return` statement
+- Variable scope (local vs. global)
+- Lambda (anonymous) functions
+- Recursion and practical examples
+
+13. **Arrays in Python**
+- The `range()` function (one, two, and three arguments)
+- Introduction to NumPy arrays
+- Differences between Python lists and NumPy arrays (data types, performance, operations, flexibility)
+- Creating and working with NumPy arrays
+- Element-wise mathematical operations
+
+### Key Learnings:
+-  Learned how to write reusable code using functions
+-  Understood parameter passing, return values, and scope
+-  Explored NumPy arrays and how they compare to Python lists
+-  Practiced numerical operations with NumPy
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -198,4 +225,5 @@ May 24, 2026 | Day 1 DONE
 May 25, 2026 | Day 2 DONE
 May 26 2026 | Day 3 DONE
 May 27, 2026 | Day 4 DONE
+May 28, 2026 | Day 5 DONE
 
