@@ -25,7 +25,9 @@ Challenge Details
 │   ├── 10_Conditional_Statements.ipynb
 │   ├── 11_Loops.ipynb
 │   ├── 12_functions.ipynb
-│   └── 13_Arrays.ipynb
+│   ├── 13_Arrays.ipynb
+│   ├── 14_Json & RegEx.ipynb
+│   └── 15_Try & Except.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -171,6 +173,67 @@ Challenge Details
 
 ---
 
+## Day 6 – JSON, Regular Expressions, and Exception Handling
+### Topics Covered:
+14. **JSON and Regular Expressions in Python**
+- Working with JSON data (`json` module)
+- Parsing JSON strings and serializing Python objects
+- Reading from and writing to JSON files
+- Introduction to Regular Expressions (`re` module)
+- Common regex patterns and metacharacters
+- `re.match()`, `re.search()`, `re.findall()`, and `re.sub()`
+
+15. **Try and Except in Python**
+- Understanding exceptions and error types
+- `try`, `except`, `else`, and `finally` blocks
+- Catching specific vs. multiple exceptions
+- Raising exceptions with `raise`
+- Creating custom exception classes
+
+### Key Learnings:
+-  Learned how to handle and exchange structured data using JSON
+-  Practiced building and matching patterns with regular expressions
+-  Understood how to gracefully handle runtime errors with exception handling
+-  Explored custom exceptions for cleaner, more readable error management
+
+---
+
+## Resources
+
+Most of the topics covered above are supplemented with material from **GeeksforGeeks**, which I have been actively using throughout this challenge.
+
+### GeeksforGeeks – Per-Topic References
+
+**Day 1 – Introduction to Programming and Python Basics**
+- [Python Programming Language](https://www.geeksforgeeks.org/python-programming-language/)
+- [Python Data Types](https://www.geeksforgeeks.org/python-data-types/)
+- [Python Virtual Environment](https://www.geeksforgeeks.org/python-virtual-environment/)
+- [Python String](https://www.geeksforgeeks.org/python-string/)
+
+**Day 2 – Operators and Lists**
+- [Python Operators](https://www.geeksforgeeks.org/python-operators/)
+- [Python Lists](https://www.geeksforgeeks.org/python-lists/)
+
+**Day 3 – Tuples, Sets, and Dictionaries**
+- [Python Tuples](https://www.geeksforgeeks.org/python-tuples/)
+- [Sets in Python](https://www.geeksforgeeks.org/sets-in-python/)
+- [Python Dictionary](https://www.geeksforgeeks.org/python-dictionary/)
+
+**Day 4 – Conditional Statements and Loops**
+- [Python If Else](https://www.geeksforgeeks.org/python-if-else/)
+- [Loops in Python](https://www.geeksforgeeks.org/loops-in-python/)
+
+**Day 5 – Functions and Arrays**
+- [Python Functions](https://www.geeksforgeeks.org/python-functions/)
+- [NumPy Array in Python](https://www.geeksforgeeks.org/numpy-array-in-python/)
+
+**Day 6 – JSON, RegEx, and Exception Handling**
+- [Read, Write and Parse JSON using Python](https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/)
+- [Python RegEx](https://www.geeksforgeeks.org/python-regex/)
+- [Python Try Except](https://www.geeksforgeeks.org/python-try-except/)
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -226,4 +289,5 @@ May 25, 2026 | Day 2 DONE
 May 26 2026 | Day 3 DONE
 May 27, 2026 | Day 4 DONE
 May 28, 2026 | Day 5 DONE
+May 29, 2026 | Day 6 DONE
 
