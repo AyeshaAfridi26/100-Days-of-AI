@@ -207,7 +207,6 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 **Day 1 – Introduction to Programming and Python Basics**
 - [Python Programming Language](https://www.geeksforgeeks.org/python-programming-language/)
 - [Python Data Types](https://www.geeksforgeeks.org/python-data-types/)
-- [Python Virtual Environment](https://www.geeksforgeeks.org/python-virtual-environment/)
 - [Python String](https://www.geeksforgeeks.org/python-string/)
 
 **Day 2 – Operators and Lists**
@@ -286,7 +285,7 @@ This repository is open for educational purposes. Feel free to learn and share!
 
 May 24, 2026 | Day 1 DONE
 May 25, 2026 | Day 2 DONE
-May 26 2026 | Day 3 DONE
+May 26 2026  | Day 3 DONE
 May 27, 2026 | Day 4 DONE
 May 28, 2026 | Day 5 DONE
 May 29, 2026 | Day 6 DONE
