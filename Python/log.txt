@@ -1,4 +1,0 @@
-Log started
-Event 1: User login
-Event 2: File uploaded
-Event 3: Data processed

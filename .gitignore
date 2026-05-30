@@ -1,0 +1,44 @@
+# --- File-handling demo outputs ---
+# Notebooks like Python_File_Handling create lots of .txt/.bin/.json files
+# as exercise output. Keep them local, out of the repo.
+Python/*.txt
+Python/*.bin
+Python/*.json
+Python/*.log
+Python/*.csv
+
+# --- Python build / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual environments ---
+env/
+venv/
+.venv/
+ENV/
+
+# --- Jupyter checkpoints ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- IDE / editor folders ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS-generated files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# --- Secrets / credentials ---
+.env
+.env.local
+*.pem
+*.key
+credentials.json

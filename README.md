@@ -27,7 +27,9 @@ Challenge Details
 │   ├── 12_functions.ipynb
 │   ├── 13_Arrays.ipynb
 │   ├── 14_Json & RegEx.ipynb
-│   └── 15_Try & Except.ipynb
+│   ├── 15_Try & Except.ipynb
+│   ├── 16_OOP_in_Python.ipynb
+│   └── 17_File_Handling.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -198,6 +200,40 @@ Challenge Details
 
 ---
 
+## Day 7 – Object-Oriented Programming and File Handling
+### Topics Covered:
+16. **Object-Oriented Programming (OOP) in Python**
+- Classes and objects (the blueprint vs. instance distinction)
+- The `__init__` constructor and `self`
+- Instance attributes vs. class attributes
+- Methods (instance, class, and static)
+- The four pillars of OOP: Encapsulation, Inheritance, Polymorphism, Abstraction
+- Method overriding and `super()`
+- Method Resolution Order (MRO) in multiple inheritance
+- Private (`__attr`), protected (`_attr`), and public attributes
+- `@property` decorators for controlled access
+- Abstract Base Classes (`abc`) and Protocols
+
+17. **File Handling in Python**
+- Opening and closing files with `open()` and `close()`
+- File modes: `r`, `w`, `a`, `x`, `r+`, `b` (binary)
+- Reading files: `read()`, `readline()`, `readlines()`
+- Writing files: `write()` and `writelines()`
+- Context managers using the `with` statement
+- Working with file paths
+- Binary file handling
+- Exception handling with files (`FileNotFoundError`, `PermissionError`)
+- Best practices for resource management
+
+### Key Learnings:
+-  Built mental model for classes, objects, and the four pillars of OOP
+-  Understood how inheritance and polymorphism enable flexible, reusable code
+-  Practiced encapsulation with private attributes and property decorators
+-  Learned how to safely read, write, and append files in different modes
+-  Mastered the `with` statement for automatic resource cleanup
+
+---
+
 ## Resources
 
 Most of the topics covered above are supplemented with material from **GeeksforGeeks**, which I have been actively using throughout this challenge.
@@ -230,6 +266,15 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 - [Read, Write and Parse JSON using Python](https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/)
 - [Python RegEx](https://www.geeksforgeeks.org/python-regex/)
 - [Python Try Except](https://www.geeksforgeeks.org/python-try-except/)
+
+**Day 7 – Object-Oriented Programming and File Handling**
+- [Python OOPs Concepts](https://www.geeksforgeeks.org/python-oops-concepts/)
+- [Python Classes and Objects](https://www.geeksforgeeks.org/python-classes-and-objects/)
+- [Inheritance in Python](https://www.geeksforgeeks.org/inheritance-in-python/)
+- [Polymorphism in Python](https://www.geeksforgeeks.org/polymorphism-in-python/)
+- [Encapsulation in Python](https://www.geeksforgeeks.org/encapsulation-in-python/)
+- [File Handling in Python](https://www.geeksforgeeks.org/file-handling-python/)
+- [Reading and Writing to text files in Python](https://www.geeksforgeeks.org/reading-writing-text-files-python/)
 
 ---
 
@@ -289,4 +334,5 @@ May 26 2026  | Day 3 DONE
 May 27, 2026 | Day 4 DONE
 May 28, 2026 | Day 5 DONE
 May 29, 2026 | Day 6 DONE
+May 30, 2026 | Day 7 DONE
 
