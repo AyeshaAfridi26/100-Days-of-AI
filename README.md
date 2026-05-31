@@ -31,6 +31,11 @@ Challenge Details
 │   ├── 16_OOP_in_Python.ipynb
 │   └── 17_File_Handling.ipynb
 │
+├── Libraries/
+│   └── Numpy/
+│       ├── 01_Numpy.ipynb
+│       └── 02_Numpy.ipynb
+│
 ├── Projects/
 │   └── (Future project directories will be added)
 │
@@ -234,6 +239,38 @@ Challenge Details
 
 ---
 
+## Day 8 – Introduction to NumPy (Foundations & Array Operations)
+### Topics Covered:
+18. **NumPy Foundations** (`01_Numpy.ipynb`)
+- What NumPy is and why it powers nearly every Python AI/ML library
+- Installing NumPy and the universal `import numpy as np` convention
+- Python lists vs NumPy arrays (behavior, performance, memory layout)
+- Vectorization and why NumPy is 20–100× faster than pure Python loops
+- Creating arrays: `np.array`, `zeros`, `ones`, `full`, `arange`, `linspace`, `eye`, `diag`, random arrays
+- Array properties: `shape`, `ndim`, `size`, `dtype`
+- Data types (`int32`, `float64`, `uint8`, etc.) and integer overflow gotchas
+- Element access, quick aggregations (`sum`, `mean`, `min`, `max`, `std`), basic reshaping
+
+19. **NumPy Array Operations** (`02_Numpy.ipynb`)
+- Indexing: 1D, 2D (`b[row, col]` vs chained `b[row][col]`)
+- Slicing along multiple dimensions, step values, reversing arrays
+- Views vs copies — when modifying a slice mutates the original, and `.copy()`
+- Boolean masking and combining conditions with `&`, `|`, `~`
+- `np.where` for vectorized if/else
+- Fancy indexing with arrays of indices
+- Reshaping (`reshape`, using `-1`), `flatten()` vs `ravel()`, transpose (`.T`)
+- Broadcasting rules: scalar + array, row vectors, column vectors, and when it fails
+- Stacking (`vstack`, `hstack`, `concatenate`) and splitting (`np.split`)
+
+### Key Learnings:
+-  Understood how contiguous memory + fixed dtypes make NumPy dramatically faster than Python lists
+-  Got fluent with vectorized operations instead of writing loops
+-  Practiced indexing, slicing, and boolean masking on real-looking data
+-  Built intuition for broadcasting — aligning shapes from the right and padding with 1s
+-  Learned the view-vs-copy gotcha that trips up most NumPy beginners
+
+---
+
 ## Resources
 
 Most of the topics covered above are supplemented with material from **GeeksforGeeks**, which I have been actively using throughout this challenge.
@@ -275,6 +312,14 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 - [Encapsulation in Python](https://www.geeksforgeeks.org/encapsulation-in-python/)
 - [File Handling in Python](https://www.geeksforgeeks.org/file-handling-python/)
 - [Reading and Writing to text files in Python](https://www.geeksforgeeks.org/reading-writing-text-files-python/)
+
+**Day 8 – Introduction to NumPy**
+- [Introduction to NumPy](https://www.geeksforgeeks.org/introduction-to-numpy/)
+- [NumPy Array in Python](https://www.geeksforgeeks.org/numpy-array-in-python/)
+- [Indexing in NumPy](https://www.geeksforgeeks.org/indexing-in-numpy/)
+- [NumPy Array Slicing](https://www.geeksforgeeks.org/numpy-array-slicing/)
+- [Broadcasting in NumPy](https://www.geeksforgeeks.org/python-broadcasting-with-numpy-arrays/)
+- [Reshape NumPy Array](https://www.geeksforgeeks.org/reshape-numpy-array/)
 
 ---
 
@@ -335,4 +380,5 @@ May 27, 2026 | Day 4 DONE
 May 28, 2026 | Day 5 DONE
 May 29, 2026 | Day 6 DONE
 May 30, 2026 | Day 7 DONE
+May 31, 2026 | Day 8 DONE
 
