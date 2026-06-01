@@ -34,7 +34,8 @@ Challenge Details
 ├── Libraries/
 │   └── Numpy/
 │       ├── 01_Numpy.ipynb
-│       └── 02_Numpy.ipynb
+│       ├── 02_Numpy.ipynb
+│       └── 03_Numpy.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -271,6 +272,36 @@ Challenge Details
 
 ---
 
+## Day 9 – NumPy Math, Statistics & Linear Algebra
+### Topics Covered:
+20. **NumPy Math, Statistics & Linear Algebra** (`03_Numpy.ipynb`)
+- Universal functions (ufuncs) — element-wise math on whole arrays without loops
+- Basic math ufuncs: `sqrt`, `square`, `exp`, `log`, `log10`
+- Trigonometry: `sin`, `cos`, `tan`, and converting between degrees and radians
+- Rounding flavors: `round`, `floor`, `ceil`, `trunc`, `abs` (and how they differ)
+- Element-wise arithmetic with `+`, `-`, `*`, `/`, `//`, `%`, `**`
+- Aggregations: `sum`, `mean`, `min`, `max`, `argmin`, `argmax`, `std`, `var`, `prod`
+- The `axis` argument — the axis you pass is the one that disappears
+- `keepdims=True` for broadcasting-friendly results
+- Statistical functions: `median`, `percentile`, `IQR`, `corrcoef`, `cov`
+- `np.unique` with `return_counts` for frequency analysis
+- Linear algebra: dot product, `np.dot`, the `@` matmul operator
+- Matrix multiplication shape rules and the `*` vs `@` distinction (Hadamard vs matmul)
+- `np.linalg` toolkit: `det`, `inv`, `solve` for `Ax = b` systems
+- Why `np.linalg.solve` beats `inv(A) @ b` (faster + more numerically stable)
+- Eigenvalues and eigenvectors with `np.linalg.eig`
+- Linear regression from scratch using the Normal Equation: `w = (XᵀX)⁻¹Xᵀy`
+
+### Key Learnings:
+-  Got comfortable with ufuncs and why vectorized math beats Python loops
+-  Built clear intuition for the `axis` argument (the axis that disappears)
+-  Learned the statistical vocabulary used everywhere in data science
+-  Understood the difference between element-wise (`*`) and matrix (`@`) multiplication
+-  Solved linear systems and worked with determinants, inverses, eigenvalues
+-  Implemented linear regression from scratch — the algorithm under every ML library
+
+---
+
 ## Resources
 
 Most of the topics covered above are supplemented with material from **GeeksforGeeks**, which I have been actively using throughout this challenge.
@@ -320,6 +351,15 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 - [NumPy Array Slicing](https://www.geeksforgeeks.org/numpy-array-slicing/)
 - [Broadcasting in NumPy](https://www.geeksforgeeks.org/python-broadcasting-with-numpy-arrays/)
 - [Reshape NumPy Array](https://www.geeksforgeeks.org/reshape-numpy-array/)
+
+**Day 9 – NumPy Math, Statistics & Linear Algebra**
+- [Universal Functions (ufuncs) in NumPy](https://www.geeksforgeeks.org/universal-functions-in-numpy/)
+- [Mathematical Functions in NumPy](https://www.geeksforgeeks.org/numpy-mathematical-function/)
+- [Statistical Functions in NumPy](https://www.geeksforgeeks.org/numpy-statistical-functions/)
+- [NumPy Linear Algebra](https://www.geeksforgeeks.org/numpy-linear-algebra/)
+- [Matrix Multiplication in NumPy](https://www.geeksforgeeks.org/numpy-matrix-multiplication-np-matmul/)
+- [Determinant of a Matrix using NumPy](https://www.geeksforgeeks.org/compute-the-determinant-of-a-given-square-array-using-numpy-in-python/)
+- [Eigenvalues and Eigenvectors in NumPy](https://www.geeksforgeeks.org/python-numpy-linalg-eig-method/)
 
 ---
 
@@ -381,4 +421,5 @@ May 28, 2026 | Day 5 DONE
 May 29, 2026 | Day 6 DONE
 May 30, 2026 | Day 7 DONE
 May 31, 2026 | Day 8 DONE
+June 1, 2026  | Day 9 DONE
 
