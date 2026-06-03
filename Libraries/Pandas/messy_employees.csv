@@ -1,0 +1,9 @@
+name,age,salary,department,join_date
+Alice,28,75000,Engineering,2020-01-15
+Bob,,65000,Sales,2019-06-30
+Charlie,35,,Engineering,2018-03-10
+Diana,29,82000,HR,2021-11-22
+Eve,42,95000,Engineering,
+Frank,31,70000,sales,2020-08-05
+Grace,,55000,HR,2022-02-14
+Henry,38,105000,ENGINEERING,2017-09-01

@@ -32,10 +32,17 @@ Challenge Details
 │   └── 17_File_Handling.ipynb
 │
 ├── Libraries/
-│   └── Numpy/
-│       ├── 01_Numpy.ipynb
-│       ├── 02_Numpy.ipynb
-│       └── 03_Numpy.ipynb
+│   ├── Numpy/
+│   │   ├── 01_Numpy.ipynb
+│   │   ├── 02_Numpy.ipynb
+│   │   ├── 03_Numpy.ipynb
+│   │   ├── 04_Numpy.ipynb
+│   │   └── 05_Numpy.ipynb
+│   │
+│   └── Pandas/
+│       ├── 01_Pandas.ipynb
+│       ├── 02_Pandas.ipynb
+│       └── 03_Pandas.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -302,6 +309,75 @@ Challenge Details
 
 ---
 
+## Day 10 – Real-World NumPy & The Bridge to Data Science / ML
+### Topics Covered:
+21. **Real-World NumPy** (`04_Numpy.ipynb`)
+- Loading and saving data: `loadtxt`, `genfromtxt`, `savetxt` for CSV; `save`, `load`, `savez`, `savez_compressed` for `.npy` / `.npz`
+- When to use each format (CSV vs `.npy` vs `.npz` vs pickle/parquet/HDF5)
+- Handling missing values with `np.nan` and `nan`-aware functions (`nanmean`, `nansum`, etc.)
+- Dates and time series with `datetime64` and `timedelta64`
+- Performance tips: vectorization, avoiding Python loops, memory layout
+- Memory management — copies vs views revisited
+- Common real-world patterns (normalization, filtering, masking)
+- Random number generation in depth with `np.random.default_rng()`
+
+22. **NumPy as the Bridge to Data Science and ML** (`05_Numpy.ipynb`)
+- Vocabulary: arrays, data science, machine learning, pandas, DataFrame, Series
+- How pandas DataFrames are built on top of NumPy arrays
+- Equivalent operations in pandas vs NumPy
+- Why NumPy is the common language across scikit-learn, PyTorch, TensorFlow, XGBoost, statsmodels
+- Images as NumPy arrays — grayscale `(height, width)` vs RGB `(height, width, 3)`
+- The mental model that unlocks computer vision and deep learning
+
+### Key Learnings:
+-  Practiced reading and writing data in CSV and native NumPy formats
+-  Learned how to handle missing data safely without breaking aggregations
+-  Built intuition for when NumPy is fast and when it isn't
+-  Understood that pandas, scikit-learn, PyTorch, and TensorFlow all speak NumPy underneath
+-  Realized that images are just arrays — the mental model behind computer vision
+
+---
+
+## Day 11 – Introduction to Pandas (Foundations, Selection, Cleaning)
+### Topics Covered:
+23. **Pandas Foundations** (`01_Pandas.ipynb`)
+- What pandas is and how it relates to NumPy
+- Installation and the `import pandas as pd` convention
+- The two core data structures: `Series` and `DataFrame`
+- Creating Series and DataFrames from lists, dicts, and NumPy arrays
+- Reading data from CSV files with `pd.read_csv()`
+- Inspecting data: `head`, `tail`, `info`, `describe`, `shape`
+- The `Index` object, column labels, and `dtypes`
+- NumPy operations work on Series (because Series wraps a NumPy array)
+
+24. **Selecting and Filtering Data** (`02_Pandas.ipynb`)
+- `.loc[]` for label-based selection vs `.iloc[]` for position-based selection
+- The endpoint rule: `.loc` includes the endpoint, `.iloc` does not
+- Boolean masking on DataFrames (using `&`, `|`, `~` with parentheses around conditions)
+- SQL-like filtering with `.query()`
+- Helper filters: `isin()`, `between()`, `str.contains()`
+- The `SettingWithCopyWarning` and how to avoid it (use `.loc`, or `.copy()`)
+
+25. **Cleaning and Transforming Data** (`03_Pandas.ipynb`)
+- Detecting missing values with `isna()` and `isnull()`
+- Handling missing data: dropping (`dropna`), filling (`fillna`), interpolating
+- Rules of thumb for how much missing data is "too much"
+- Changing data types with `.astype()`
+- Renaming columns and indices with `rename`
+- Adding, removing, and reordering columns
+- Applying functions: `.apply()`, `.map()`, and `.applymap()`
+- Vectorized string operations with `.str` accessor
+- Using categorical data types for memory efficiency
+
+### Key Learnings:
+-  Understood pandas as the labeled, tabular extension of NumPy
+-  Got comfortable with the Series / DataFrame mental model
+-  Learned the `.loc` vs `.iloc` distinction (labels vs positions, inclusive vs exclusive)
+-  Practiced boolean masking and `.query()` for filtering real datasets
+-  Built a toolkit for the part of data work people actually spend 60–80% of their time on: cleaning
+
+---
+
 ## Resources
 
 Most of the topics covered above are supplemented with material from **GeeksforGeeks**, which I have been actively using throughout this challenge.
@@ -360,6 +436,24 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 - [Matrix Multiplication in NumPy](https://www.geeksforgeeks.org/numpy-matrix-multiplication-np-matmul/)
 - [Determinant of a Matrix using NumPy](https://www.geeksforgeeks.org/compute-the-determinant-of-a-given-square-array-using-numpy-in-python/)
 - [Eigenvalues and Eigenvectors in NumPy](https://www.geeksforgeeks.org/python-numpy-linalg-eig-method/)
+
+**Day 10 – Real-World NumPy & The Bridge to Data Science / ML**
+- [Read CSV files into NumPy arrays](https://www.geeksforgeeks.org/read-csv-files-using-numpy-genfromtxt/)
+- [Save and Load NumPy Arrays](https://www.geeksforgeeks.org/save-and-load-numpy-array-using-the-npy-extension/)
+- [Handling Missing Values in NumPy](https://www.geeksforgeeks.org/how-to-remove-nan-values-from-a-given-numpy-array/)
+- [datetime64 in NumPy](https://www.geeksforgeeks.org/numpy-datetime64-method/)
+- [Random Numbers in NumPy](https://www.geeksforgeeks.org/random-sampling-in-numpy-random-method/)
+
+**Day 11 – Introduction to Pandas**
+- [Introduction to Pandas](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)
+- [Pandas Series](https://www.geeksforgeeks.org/python-pandas-series/)
+- [Pandas DataFrame](https://www.geeksforgeeks.org/python-pandas-dataframe/)
+- [Read CSV files with pandas](https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/)
+- [Indexing and Selecting Data with Pandas](https://www.geeksforgeeks.org/indexing-and-selecting-data-with-pandas/)
+- [.loc and .iloc in Pandas](https://www.geeksforgeeks.org/python-pandas-dataframe-loc/)
+- [Boolean Indexing in Pandas](https://www.geeksforgeeks.org/boolean-indexing-in-pandas/)
+- [Handling Missing Data in Pandas](https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/)
+- [Pandas apply, map, and applymap](https://www.geeksforgeeks.org/difference-between-map-applymap-and-apply-methods-in-pandas/)
 
 ---
 
@@ -422,4 +516,6 @@ May 29, 2026 | Day 6 DONE
 May 30, 2026 | Day 7 DONE
 May 31, 2026 | Day 8 DONE
 June 1, 2026  | Day 9 DONE
+June 2, 2026  | Day 10 DONE
+June 3, 2026  | Day 11 DONE
 
