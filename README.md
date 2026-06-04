@@ -42,7 +42,8 @@ Challenge Details
 │   └── Pandas/
 │       ├── 01_Pandas.ipynb
 │       ├── 02_Pandas.ipynb
-│       └── 03_Pandas.ipynb
+│       ├── 03_Pandas.ipynb
+│       └── 04_Pandas.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -378,6 +379,35 @@ Challenge Details
 
 ---
 
+## Day 12 – Pandas Grouping, Aggregating, and Joining
+### Topics Covered:
+26. **Grouping, Aggregating, and Joining** (`04_Pandas.ipynb`)
+- The split-apply-combine pattern with `groupby()`
+- Basic aggregations: `sum`, `mean`, `count`, `min`, `max`
+- Multiple aggregations on the same column with `.agg([...])`
+- Grouping by multiple columns and the resulting `MultiIndex`
+- Reshaping a MultiIndex Series into a wider DataFrame with `.unstack()`
+- Aggregating multiple columns at once (list and dict syntax for `agg()`)
+- Named aggregations for self-documenting output columns
+- Custom aggregation functions (regular functions and lambdas)
+- `transform()` for broadcasting group-level values back to each row
+- `filter()` for keeping or dropping entire groups based on a condition
+- Pivot tables with `pivot_table` (rows, columns, values, aggfunc, margins)
+- `crosstab` for frequency tables and row/column normalization
+- Reshaping with `melt` (wide to long) and `pivot` (long to wide)
+- Merging DataFrames the SQL way: inner, left, right, and outer joins
+- Joining on different column names with `left_on` and `right_on`
+- Stacking DataFrames vertically and horizontally with `concat`
+
+### Key Learnings:
+-  Internalized the split-apply-combine pattern as the core of pandas analysis
+-  Learned the difference between `agg` (one row per group), `transform` (one row per original row), and `filter` (keep/drop whole groups)
+-  Built fluency with pivot tables and crosstabs for spreadsheet-style summaries
+-  Understood when to reach for `melt` vs `pivot` when reshaping data
+-  Got comfortable joining DataFrames and picking the right join type for the task
+
+---
+
 ## Resources
 
 Most of the topics covered above are supplemented with material from **GeeksforGeeks**, which I have been actively using throughout this challenge.
@@ -455,6 +485,18 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 - [Handling Missing Data in Pandas](https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/)
 - [Pandas apply, map, and applymap](https://www.geeksforgeeks.org/difference-between-map-applymap-and-apply-methods-in-pandas/)
 
+**Day 12 – Pandas Grouping, Aggregating, and Joining**
+- [Pandas groupby](https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/)
+- [Aggregation in Pandas](https://www.geeksforgeeks.org/aggregation-in-pandas/)
+- [Pandas MultiIndex](https://www.geeksforgeeks.org/python-pandas-multiindex/)
+- [Pandas transform](https://www.geeksforgeeks.org/python-pandas-dataframe-transform/)
+- [Pandas pivot_table](https://www.geeksforgeeks.org/python-pandas-pivot_table/)
+- [Pandas crosstab](https://www.geeksforgeeks.org/python-pandas-crosstab/)
+- [Pandas melt](https://www.geeksforgeeks.org/python-pandas-melt/)
+- [Pandas pivot](https://www.geeksforgeeks.org/python-pandas-dataframe-pivot/)
+- [Pandas merge](https://www.geeksforgeeks.org/python-pandas-merging-joining-and-concatenating/)
+- [Pandas concat](https://www.geeksforgeeks.org/python-pandas-concat/)
+
 ---
 
 ##  How to Use This Repository
@@ -518,4 +560,5 @@ May 31, 2026 | Day 8 DONE
 June 1, 2026  | Day 9 DONE
 June 2, 2026  | Day 10 DONE
 June 3, 2026  | Day 11 DONE
+June 4, 2026  | Day 12 DONE
 
