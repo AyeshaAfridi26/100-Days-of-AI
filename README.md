@@ -43,7 +43,8 @@ Challenge Details
 │       ├── 01_Pandas.ipynb
 │       ├── 02_Pandas.ipynb
 │       ├── 03_Pandas.ipynb
-│       └── 04_Pandas.ipynb
+│       ├── 04_Pandas.ipynb
+│       └── 05_Pandas.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -379,7 +380,7 @@ Challenge Details
 
 ---
 
-## Day 12 – Pandas Grouping, Aggregating, and Joining
+## Day 12 – Pandas Grouping, Joining, Time Series, and Plotting
 ### Topics Covered:
 26. **Grouping, Aggregating, and Joining** (`04_Pandas.ipynb`)
 - The split-apply-combine pattern with `groupby()`
@@ -399,12 +400,29 @@ Challenge Details
 - Joining on different column names with `left_on` and `right_on`
 - Stacking DataFrames vertically and horizontally with `concat`
 
+27. **Time Series, Plotting, and Method Chaining** (`05_Pandas.ipynb`)
+- Time series basics: `DatetimeIndex`, date-string slicing, partial-date selection
+- Resampling with `.resample()` to change frequency (daily to weekly, monthly OHLC, etc.)
+- Common frequency codes: `D`, `W`, `ME`, `QE`, `YE`, `h`, `min`
+- Rolling windows with `.rolling()` for moving averages, rolling std/min/max
+- Expanding windows for cumulative statistics
+- Plotting directly from pandas with `.plot()` (line, bar, hist, box, scatter, kde, area)
+- Method chaining: stringing operations together with `.assign()`, `.query()`, `.groupby()`, etc.
+- Using `lambda d: ...` inside `.assign()` to reference intermediate state
+- Performance: vectorized operations vs `.apply()` vs `.iterrows()` (and why `iterrows` is usually a red flag)
+- Memory tips: categorical dtype, `chunksize=...` for large CSVs
+- A worked end-to-end analysis: cleaning, deriving columns, aggregating, pivoting, visualizing
+
 ### Key Learnings:
 -  Internalized the split-apply-combine pattern as the core of pandas analysis
 -  Learned the difference between `agg` (one row per group), `transform` (one row per original row), and `filter` (keep/drop whole groups)
 -  Built fluency with pivot tables and crosstabs for spreadsheet-style summaries
 -  Understood when to reach for `melt` vs `pivot` when reshaping data
 -  Got comfortable joining DataFrames and picking the right join type for the task
+-  Learned how DatetimeIndex unlocks date-string slicing and resampling
+-  Built intuition for rolling windows and when moving averages are the right tool
+-  Practiced method chaining as a way to keep multi-step pipelines readable
+-  Saw the real cost of `iterrows()` vs vectorized operations in a benchmark
 
 ---
 
@@ -485,7 +503,7 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 - [Handling Missing Data in Pandas](https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/)
 - [Pandas apply, map, and applymap](https://www.geeksforgeeks.org/difference-between-map-applymap-and-apply-methods-in-pandas/)
 
-**Day 12 – Pandas Grouping, Aggregating, and Joining**
+**Day 12 – Pandas Grouping, Joining, Time Series, and Plotting**
 - [Pandas groupby](https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/)
 - [Aggregation in Pandas](https://www.geeksforgeeks.org/aggregation-in-pandas/)
 - [Pandas MultiIndex](https://www.geeksforgeeks.org/python-pandas-multiindex/)
@@ -496,6 +514,11 @@ Most of the topics covered above are supplemented with material from **GeeksforG
 - [Pandas pivot](https://www.geeksforgeeks.org/python-pandas-dataframe-pivot/)
 - [Pandas merge](https://www.geeksforgeeks.org/python-pandas-merging-joining-and-concatenating/)
 - [Pandas concat](https://www.geeksforgeeks.org/python-pandas-concat/)
+- [Pandas Time Series / Date Functionality](https://www.geeksforgeeks.org/python-pandas-time-series/)
+- [Pandas resample](https://www.geeksforgeeks.org/python-pandas-dataframe-resample/)
+- [Pandas rolling window](https://www.geeksforgeeks.org/python-pandas-dataframe-rolling/)
+- [Pandas plotting (visualization)](https://www.geeksforgeeks.org/data-visualization-with-pandas/)
+- [Method chaining in pandas](https://www.geeksforgeeks.org/method-chaining-in-pandas/)
 
 ---
 
