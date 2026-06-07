@@ -39,12 +39,16 @@ Challenge Details
 │   │   ├── 04_Numpy.ipynb
 │   │   └── 05_Numpy.ipynb
 │   │
-│   └── Pandas/
-│       ├── 01_Pandas.ipynb
-│       ├── 02_Pandas.ipynb
-│       ├── 03_Pandas.ipynb
-│       ├── 04_Pandas.ipynb
-│       └── 05_Pandas.ipynb
+│   ├── Pandas/
+│   │   ├── 01_Pandas.ipynb
+│   │   ├── 02_Pandas.ipynb
+│   │   ├── 03_Pandas.ipynb
+│   │   ├── 04_Pandas.ipynb
+│   │   └── 05_Pandas.ipynb
+│   │
+│   └── Matplotlib/
+│       ├── 01_Matplotlib.ipynb
+│       └── 02_Matplotlib.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
