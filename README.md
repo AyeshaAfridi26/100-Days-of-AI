@@ -48,6 +48,7 @@ Challenge Details
 │   │
 │   └── Matplotlib/
 │       ├── 01_Matplotlib.ipynb
+│       ├── Matplotlib-02-Core-Plot-Types.ipynb
 │       └── 03_Matplotlib.ipynb
 │
 ├── Projects/
@@ -152,6 +153,11 @@ Challenge Details
 
 ---
 
+## Day 16 – Matplotlib Core Plot Types
+- **Core Plot Types** (`Matplotlib-02-Core-Plot-Types.ipynb`) — Line plots with full styling (color, linestyle, linewidth, markers), scatter plots with 4D encoding via size and color, bar charts (vertical, horizontal, grouped, stacked), histograms for single distributions, box and violin plots for comparing distributions across groups, pie charts (and the sorted-bar alternative), plus a reference table for picking the right plot type.
+
+---
+
 ## References
 
 **Day 1**
@@ -247,6 +253,15 @@ Challenge Details
 - [Matplotlib Annotations](https://www.geeksforgeeks.org/matplotlib-pyplot-annotate-in-python/)
 - [Matplotlib Style Sheets](https://www.geeksforgeeks.org/style-plots-using-matplotlib/)
 
+**Day 16**
+- [Line Chart in Matplotlib](https://www.geeksforgeeks.org/line-chart-in-matplotlib-python/)
+- [Matplotlib Scatter Plot](https://www.geeksforgeeks.org/matplotlib-pyplot-scatter-in-python/)
+- [Grouped Bar Chart in Matplotlib](https://www.geeksforgeeks.org/create-a-grouped-bar-plot-in-matplotlib/)
+- [Stacked Bar Chart in Matplotlib](https://www.geeksforgeeks.org/stacked-bar-chart-with-matplotlib/)
+- [Matplotlib Histogram](https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/)
+- [Box Plot in Matplotlib](https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/)
+- [Violin Plot in Matplotlib](https://www.geeksforgeeks.org/violin-plot-using-matplotlib/)
+
 ---
 
 ##  How to Use This Repository
@@ -314,3 +329,4 @@ June 4, 2026  | Day 12 DONE
 June 5, 2026  | Day 13 DONE
 June 6, 2026  | Day 14 DONE
 June 7, 2026  | Day 15 DONE
+June 8, 2026  | Day 16 DONE
