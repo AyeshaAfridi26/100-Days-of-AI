@@ -48,8 +48,9 @@ Challenge Details
 │   │
 │   └── Matplotlib/
 │       ├── 01_Matplotlib.ipynb
-│       ├── Matplotlib-02-Core-Plot-Types.ipynb
-│       └── 03_Matplotlib.ipynb
+│       ├── 02_Matplotlib.ipynb
+│       ├── 03_Matplotlib.ipynb
+│       └── 04_Matplotlib.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -154,7 +155,17 @@ Challenge Details
 ---
 
 ## Day 16 – Matplotlib Core Plot Types
-- **Core Plot Types** (`Matplotlib-02-Core-Plot-Types.ipynb`) — Line plots with full styling (color, linestyle, linewidth, markers), scatter plots with 4D encoding via size and color, bar charts (vertical, horizontal, grouped, stacked), histograms for single distributions, box and violin plots for comparing distributions across groups, pie charts (and the sorted-bar alternative), plus a reference table for picking the right plot type.
+- **Core Plot Types** (`02_Matplotlib.ipynb`) — Line plots with full styling (color, linestyle, linewidth, markers), scatter plots with 4D encoding via size and color, bar charts (vertical, horizontal, grouped, stacked), histograms for single distributions, box and violin plots for comparing distributions across groups, pie charts (and the sorted-bar alternative), plus a reference table for picking the right plot type.
+
+---
+
+## Day 17 – Matplotlib Advanced and Real-World
+- **Advanced and Real-World** (`04_Matplotlib.ipynb`) — Non-uniform layouts with `GridSpec`, twin y-axes (`ax.twinx()`) for two scales on one chart, heatmaps via `imshow` (activity, correlation, confusion matrices), publication-quality saves (`dpi=300`, `bbox_inches='tight'`, vector formats), seaborn as the higher-level layer for statistical plots, and a complete multi-panel revenue dashboard pulling everything together.
+
+---
+
+## Day 18 – Matplotlib Foundations Revisit
+- Small tweaks to `01_Matplotlib.ipynb` and a closer look at `figsize`, `dpi`, `plt.tight_layout()`, and the matplotlib backend.
 
 ---
 
@@ -262,6 +273,14 @@ Challenge Details
 - [Box Plot in Matplotlib](https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/)
 - [Violin Plot in Matplotlib](https://www.geeksforgeeks.org/violin-plot-using-matplotlib/)
 
+**Day 17**
+- [GridSpec in Matplotlib](https://www.geeksforgeeks.org/how-to-create-different-subplot-sizes-in-matplotlib/)
+- [Twin Axes in Matplotlib](https://www.geeksforgeeks.org/plot-multiple-plots-in-matplotlib/)
+- [Heatmap in Matplotlib](https://www.geeksforgeeks.org/how-to-plot-a-heatmap-in-python/)
+- [Confusion Matrix Visualization](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/)
+- [seaborn Tutorial](https://www.geeksforgeeks.org/python-seaborn-tutorial/)
+- [Saving Publication-Quality Figures](https://www.geeksforgeeks.org/matplotlib-pyplot-savefig-in-python/)
+
 ---
 
 ##  How to Use This Repository
@@ -330,3 +349,5 @@ June 5, 2026  | Day 13 DONE
 June 6, 2026  | Day 14 DONE
 June 7, 2026  | Day 15 DONE
 June 8, 2026  | Day 16 DONE
+June 9, 2026  | Day 17 DONE
+June 10, 2026 | Day 18 DONE
