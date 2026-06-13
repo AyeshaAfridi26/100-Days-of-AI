@@ -169,6 +169,21 @@ Challenge Details
 
 ---
 
+## Day 19 – Matplotlib Core Plot Types Tweaks
+- Small tweaks to `02_Matplotlib.ipynb`.
+
+---
+
+## Day 20 – Matplotlib Core Plot Types Tweaks (continued)
+- More tweaks to `02_Matplotlib.ipynb` and a closer look at how Python's `zip()` works for parallel iteration — the pattern behind the bar-label loops and per-box coloring in that notebook.
+
+---
+
+## Day 21 – README Update
+- README-only update.
+
+---
+
 ## References
 
 **Day 1**
@@ -351,3 +366,6 @@ June 7, 2026  | Day 15 DONE
 June 8, 2026  | Day 16 DONE
 June 9, 2026  | Day 17 DONE
 June 10, 2026 | Day 18 DONE
+June 11, 2026 | Day 19 DONE
+June 12, 2026 | Day 20 DONE
+June 13, 2026 | Day 21 DONE
