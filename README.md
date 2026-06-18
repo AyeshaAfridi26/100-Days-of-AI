@@ -184,117 +184,10 @@ Challenge Details
 
 ---
 
-## References
+## Day 22 – Seaborn Foundations
+- **Seaborn Foundations** (`01_Seaborn.ipynb`) — What seaborn adds on top of matplotlib, `sns.set_theme()` for global styling, the `penguins` built-in dataset, the `hue=` argument for coloring by category in one call, long-format vs wide-format data and `pd.melt`, the figure-level vs axes-level function split, and mixing seaborn with matplotlib via the returned axes / FacetGrid.
 
-**Day 1**
-- [Python Programming Language](https://www.geeksforgeeks.org/python-programming-language/)
-- [Python Data Types](https://www.geeksforgeeks.org/python-data-types/)
-- [Python String](https://www.geeksforgeeks.org/python-string/)
-
-**Day 2**
-- [Python Operators](https://www.geeksforgeeks.org/python-operators/)
-- [Python Lists](https://www.geeksforgeeks.org/python-lists/)
-
-**Day 3**
-- [Python Tuples](https://www.geeksforgeeks.org/python-tuples/)
-- [Sets in Python](https://www.geeksforgeeks.org/sets-in-python/)
-- [Python Dictionary](https://www.geeksforgeeks.org/python-dictionary/)
-
-**Day 4**
-- [Python If Else](https://www.geeksforgeeks.org/python-if-else/)
-- [Loops in Python](https://www.geeksforgeeks.org/loops-in-python/)
-
-**Day 5**
-- [Python Functions](https://www.geeksforgeeks.org/python-functions/)
-- [NumPy Array in Python](https://www.geeksforgeeks.org/numpy-array-in-python/)
-
-**Day 6**
-- [Read, Write and Parse JSON using Python](https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/)
-- [Python RegEx](https://www.geeksforgeeks.org/python-regex/)
-- [Python Try Except](https://www.geeksforgeeks.org/python-try-except/)
-
-**Day 7**
-- [Python OOPs Concepts](https://www.geeksforgeeks.org/python-oops-concepts/)
-- [Python Classes and Objects](https://www.geeksforgeeks.org/python-classes-and-objects/)
-- [Inheritance in Python](https://www.geeksforgeeks.org/inheritance-in-python/)
-- [Polymorphism in Python](https://www.geeksforgeeks.org/polymorphism-in-python/)
-- [Encapsulation in Python](https://www.geeksforgeeks.org/encapsulation-in-python/)
-- [File Handling in Python](https://www.geeksforgeeks.org/file-handling-python/)
-
-**Day 8**
-- [Introduction to NumPy](https://www.geeksforgeeks.org/introduction-to-numpy/)
-- [Indexing in NumPy](https://www.geeksforgeeks.org/indexing-in-numpy/)
-- [NumPy Array Slicing](https://www.geeksforgeeks.org/numpy-array-slicing/)
-- [Broadcasting in NumPy](https://www.geeksforgeeks.org/python-broadcasting-with-numpy-arrays/)
-- [Reshape NumPy Array](https://www.geeksforgeeks.org/reshape-numpy-array/)
-
-**Day 9**
-- [Universal Functions (ufuncs) in NumPy](https://www.geeksforgeeks.org/universal-functions-in-numpy/)
-- [Statistical Functions in NumPy](https://www.geeksforgeeks.org/numpy-statistical-functions/)
-- [NumPy Linear Algebra](https://www.geeksforgeeks.org/numpy-linear-algebra/)
-- [Matrix Multiplication in NumPy](https://www.geeksforgeeks.org/numpy-matrix-multiplication-np-matmul/)
-- [Eigenvalues and Eigenvectors in NumPy](https://www.geeksforgeeks.org/python-numpy-linalg-eig-method/)
-
-**Day 10**
-- [Read CSV files into NumPy arrays](https://www.geeksforgeeks.org/read-csv-files-using-numpy-genfromtxt/)
-- [Save and Load NumPy Arrays](https://www.geeksforgeeks.org/save-and-load-numpy-array-using-the-npy-extension/)
-- [Handling Missing Values in NumPy](https://www.geeksforgeeks.org/how-to-remove-nan-values-from-a-given-numpy-array/)
-- [datetime64 in NumPy](https://www.geeksforgeeks.org/numpy-datetime64-method/)
-- [Random Numbers in NumPy](https://www.geeksforgeeks.org/random-sampling-in-numpy-random-method/)
-
-**Day 11**
-- [Introduction to Pandas](https://www.geeksforgeeks.org/introduction-to-pandas-in-python/)
-- [Pandas Series](https://www.geeksforgeeks.org/python-pandas-series/)
-- [Pandas DataFrame](https://www.geeksforgeeks.org/python-pandas-dataframe/)
-- [.loc and .iloc in Pandas](https://www.geeksforgeeks.org/python-pandas-dataframe-loc/)
-- [Boolean Indexing in Pandas](https://www.geeksforgeeks.org/boolean-indexing-in-pandas/)
-- [Handling Missing Data in Pandas](https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/)
-
-**Day 12**
-- [Pandas groupby](https://www.geeksforgeeks.org/python-pandas-dataframe-groupby/)
-- [Aggregation in Pandas](https://www.geeksforgeeks.org/aggregation-in-pandas/)
-- [Pandas pivot_table](https://www.geeksforgeeks.org/python-pandas-pivot_table/)
-- [Pandas melt](https://www.geeksforgeeks.org/python-pandas-melt/)
-- [Pandas merge](https://www.geeksforgeeks.org/python-pandas-merging-joining-and-concatenating/)
-- [Pandas concat](https://www.geeksforgeeks.org/python-pandas-concat/)
-
-**Day 13**
-- [Pandas Time Series / Date Functionality](https://www.geeksforgeeks.org/python-pandas-time-series/)
-- [Pandas resample](https://www.geeksforgeeks.org/python-pandas-dataframe-resample/)
-- [Pandas rolling window](https://www.geeksforgeeks.org/python-pandas-dataframe-rolling/)
-- [Pandas plotting](https://www.geeksforgeeks.org/data-visualization-with-pandas/)
-- [Method chaining in pandas](https://www.geeksforgeeks.org/method-chaining-in-pandas/)
-
-**Day 14**
-- [Introduction to Matplotlib](https://www.geeksforgeeks.org/python-introduction-matplotlib/)
-- [Pyplot in Matplotlib](https://www.geeksforgeeks.org/pyplot-in-matplotlib/)
-- [Multiple plots with `plt.subplots()`](https://www.geeksforgeeks.org/matplotlib-pyplot-subplots-in-python/)
-- [Matplotlib Bar Chart](https://www.geeksforgeeks.org/bar-plot-in-matplotlib/)
-- [Saving a Matplotlib Figure](https://www.geeksforgeeks.org/matplotlib-pyplot-savefig-in-python/)
-
-**Day 15**
-- [Matplotlib Colors](https://www.geeksforgeeks.org/matplotlib-pyplot-colors-in-python/)
-- [Choosing Colormaps in Matplotlib](https://www.geeksforgeeks.org/choosing-colormaps-in-matplotlib/)
-- [Matplotlib Tick Labels](https://www.geeksforgeeks.org/matplotlib-pyplot-xticks-in-python/)
-- [Matplotlib Annotations](https://www.geeksforgeeks.org/matplotlib-pyplot-annotate-in-python/)
-- [Matplotlib Style Sheets](https://www.geeksforgeeks.org/style-plots-using-matplotlib/)
-
-**Day 16**
-- [Line Chart in Matplotlib](https://www.geeksforgeeks.org/line-chart-in-matplotlib-python/)
-- [Matplotlib Scatter Plot](https://www.geeksforgeeks.org/matplotlib-pyplot-scatter-in-python/)
-- [Grouped Bar Chart in Matplotlib](https://www.geeksforgeeks.org/create-a-grouped-bar-plot-in-matplotlib/)
-- [Stacked Bar Chart in Matplotlib](https://www.geeksforgeeks.org/stacked-bar-chart-with-matplotlib/)
-- [Matplotlib Histogram](https://www.geeksforgeeks.org/plotting-histogram-in-python-using-matplotlib/)
-- [Box Plot in Matplotlib](https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/)
-- [Violin Plot in Matplotlib](https://www.geeksforgeeks.org/violin-plot-using-matplotlib/)
-
-**Day 17**
-- [GridSpec in Matplotlib](https://www.geeksforgeeks.org/how-to-create-different-subplot-sizes-in-matplotlib/)
-- [Twin Axes in Matplotlib](https://www.geeksforgeeks.org/plot-multiple-plots-in-matplotlib/)
-- [Heatmap in Matplotlib](https://www.geeksforgeeks.org/how-to-plot-a-heatmap-in-python/)
-- [Confusion Matrix Visualization](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/)
-- [seaborn Tutorial](https://www.geeksforgeeks.org/python-seaborn-tutorial/)
-- [Saving Publication-Quality Figures](https://www.geeksforgeeks.org/matplotlib-pyplot-savefig-in-python/)
+---
 
 ---
 
@@ -369,3 +262,4 @@ June 10, 2026 | Day 18 DONE
 June 11, 2026 | Day 19 DONE
 June 12, 2026 | Day 20 DONE
 June 13, 2026 | Day 21 DONE
+June 18, 2026 | Day 22 DONE
