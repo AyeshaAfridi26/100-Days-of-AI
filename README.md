@@ -189,6 +189,12 @@ Challenge Details
 
 ---
 
+## Day 23 – Seaborn Distribution and Relational Plots
+- **Distribution Plots** (`02_Seaborn.ipynb`) — `histplot`, `kdeplot` (kernel density estimates and `bw_adjust`), `ecdfplot` (empirical cumulative distribution functions), `rugplot`, and the figure-level `displot` with `kind=`; choosing between histogram, KDE, and ECDF; 2D distributions and KDE-with-rug for sanity-checking smoothing.
+- **Relational Plots** (`03_Seaborn.ipynb`) — `scatterplot` with the `hue` / `size` / `style` encoding channels, `lineplot` and its auto-aggregation (mean + confidence interval), `errorbar=` options (`ci`, `sd`, `se`, `pi`, `None`), qualitative vs sequential palettes, and the figure-level `relplot` for faceting via `col` / `row` / `col_wrap` plus the returned `FacetGrid` for post-plot customization.
+
+---
+
 ---
 
 ##  How to Use This Repository
@@ -263,3 +269,4 @@ June 11, 2026 | Day 19 DONE
 June 12, 2026 | Day 20 DONE
 June 13, 2026 | Day 21 DONE
 June 18, 2026 | Day 22 DONE
+June 19, 2026 | Day 23 DONE
