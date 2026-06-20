@@ -195,6 +195,13 @@ Challenge Details
 
 ---
 
+## Day 24 – Seaborn Categorical, Regression, and Real-World EDA
+- **Categorical Plots** (`04_Seaborn.ipynb`) — Distribution per category (`boxplot`, `violinplot` with `inner=` and `split=True`, `boxenplot` for large n), individual observations (`stripplot` with jitter, `swarmplot`), and summary statistics (`barplot` with `estimator=`, `countplot` for class balance, `pointplot` for ordered categories), plus the figure-level `catplot` wrapper with `kind=`.
+- **Regression and Matrix Plots** (`05_Seaborn.ipynb`) — `regplot` and `lmplot` with OLS lines and confidence bands, polynomial / robust / logistic / LOWESS variants, `residplot` for diagnostic plots, `heatmap` for correlation matrices and confusion matrices (masking the upper triangle, annotating cells), and `clustermap` with hierarchical clustering.
+- **Real-World EDA Walkthrough** (`06_Seaborn.ipynb`) — A nine-step end-to-end EDA on the penguins dataset: first look with `.head()` / `.info()` / `.describe()`, missing-data decisions, class-balance checks with `countplot`, per-feature distributions, `pairplot` for pairwise relationships, correlation heatmaps, focused two-feature scatters, and a summary chart suitable for a writeup.
+
+---
+
 ---
 
 ##  How to Use This Repository
@@ -270,3 +277,4 @@ June 12, 2026 | Day 20 DONE
 June 13, 2026 | Day 21 DONE
 June 18, 2026 | Day 22 DONE
 June 19, 2026 | Day 23 DONE
+June 20, 2026 | Day 24 DONE
