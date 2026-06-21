@@ -202,6 +202,9 @@ Challenge Details
 
 ---
 
+## Day 25 – Linear Algebra Foundations
+- **Linear Algebra** (`Maths/LinearAlgebra.ipynb`) — Scalars and vectors; core vector operations (addition, scalar multiplication, dot product, magnitude/norm, cosine similarity); core matrix operations (transpose, identity matrix, inverse, eigenvalues and eigenvectors). 
+
 ---
 
 ##  How to Use This Repository
@@ -278,3 +281,4 @@ June 13, 2026 | Day 21 DONE
 June 18, 2026 | Day 22 DONE
 June 19, 2026 | Day 23 DONE
 June 20, 2026 | Day 24 DONE
+June 21, 2026 | Day 25 DONE
