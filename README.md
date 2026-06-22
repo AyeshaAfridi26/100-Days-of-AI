@@ -207,6 +207,11 @@ Challenge Details
 
 ---
 
+## Day 26 – Statistics and Probability for ML
+- **Statistics & Probability** (`Maths/Stat&Probability.ipynb`) — Descriptive statistics (mean, median, variance, standard deviation, Z-score normalization, covariance and correlation); probability basics (single events, conditional probability, Bayes' theorem with a medical-testing example); core distributions (normal/Gaussian with the empirical rule, Bernoulli, binomial); key ML concepts (bias vs variance, p-values, overfitting/underfitting, cross-validation); and the daily metrics — MSE / RMSE / MAE for regression and accuracy / precision / recall / F1 for classification.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -282,3 +287,4 @@ June 18, 2026 | Day 22 DONE
 June 19, 2026 | Day 23 DONE
 June 20, 2026 | Day 24 DONE
 June 21, 2026 | Day 25 DONE
+June 22, 2026 | Day 26 DONE
