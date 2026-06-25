@@ -212,6 +212,16 @@ Challenge Details
 
 ---
 
+## Day 27 – Calculus Foundations
+- **Calculus** (`Maths/Calculus.ipynb`) — Functions, limits, derivatives (definition, the common rules), partial derivatives for multi-variable functions, gradients (direction of steepest increase), gradient descent (the algorithm behind training), the chain rule (the engine of backpropagation), and integrals. The calculus underneath every ML training loop.
+
+---
+
+## Day 28 – Scikit-learn Data Preprocessing
+- **Sklearn 1: Data Preprocessing** (`Libraries/Sklearn/01_Sklearn.ipynb`) — EDA checklist, train/test split (and the data-leakage rule of splitting first), handling missing values with `SimpleImputer`, feature scaling (`StandardScaler` vs `MinMaxScaler` and which models need it), encoding categorical variables (`LabelEncoder` for ordinal, `OneHotEncoder` for nominal, the dummy variable trap), and chaining everything together with `Pipeline`.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -288,3 +298,5 @@ June 19, 2026 | Day 23 DONE
 June 20, 2026 | Day 24 DONE
 June 21, 2026 | Day 25 DONE
 June 22, 2026 | Day 26 DONE
+June 23, 2026 | Day 27 DONE
+June 24, 2026 | Day 28 DONE
