@@ -46,11 +46,28 @@ Challenge Details
 │   │   ├── 04_Pandas.ipynb
 │   │   └── 05_Pandas.ipynb
 │   │
-│   └── Matplotlib/
-│       ├── 01_Matplotlib.ipynb
-│       ├── 02_Matplotlib.ipynb
-│       ├── 03_Matplotlib.ipynb
-│       └── 04_Matplotlib.ipynb
+│   ├── Matplotlib/
+│   │   ├── 01_Matplotlib.ipynb
+│   │   ├── 02_Matplotlib.ipynb
+│   │   ├── 03_Matplotlib.ipynb
+│   │   └── 04_Matplotlib.ipynb
+│   │
+│   ├── Seaborn/
+│   │   ├── 01_Seaborn.ipynb
+│   │   ├── 02_Seaborn.ipynb
+│   │   ├── 03_Seaborn.ipynb
+│   │   ├── 04_Seaborn.ipynb
+│   │   ├── 05_Seaborn.ipynb
+│   │   └── 06_Seaborn.ipynb
+│   │
+│   └── Sklearn/
+│       ├── 01_Sklearn.ipynb
+│       └── 02_Sklearn.ipynb
+│
+├── Maths/
+│   ├── LinearAlgebra.ipynb
+│   ├── Stat&Probability.ipynb
+│   └── Calculus.ipynb
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -222,6 +239,11 @@ Challenge Details
 
 ---
 
+## Day 29 – Scikit-learn Regression
+- **Sklearn 2: Regression** (`Libraries/Sklearn/02_Sklearn.ipynb`) — What regression is and how it differs from classification; the California Housing dataset (features, target); Linear Regression (math, weights vs bias, assumptions, pros/cons); Ridge Regression (L2 penalty, effect of alpha, prevents large weights but keeps all features); Lasso Regression (L1 penalty, sparsity, automatic feature selection, Ridge vs Lasso comparison table); evaluation metrics (RMSE, MAE, R²); model comparison across all three; and 5-Fold Cross-Validation with a visual fold diagram explaining why a single split is unreliable.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -300,3 +322,4 @@ June 21, 2026 | Day 25 DONE
 June 22, 2026 | Day 26 DONE
 June 23, 2026 | Day 27 DONE
 June 24, 2026 | Day 28 DONE
+June 25, 2026 | Day 29 DONE
