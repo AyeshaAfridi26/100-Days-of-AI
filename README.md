@@ -244,6 +244,16 @@ Challenge Details
 
 ---
 
+## Day 30 – README Update
+- README-only update: added Day 29 entry and updated repository structure.
+
+---
+
+## Day 31 – Scikit-learn Classification
+- **Sklearn 3: Classification** (`Libraries/Sklearn/03_Sklearn.ipynb`) — What classification is and how it differs from regression; the Breast Cancer Wisconsin dataset (30 features, malignant vs benign target); Logistic Regression (sigmoid function, linear decision boundary, calibrated probabilities); confusion matrix (TP/TN/FP/FN breakdown, why false negatives are most dangerous in medical contexts); K-Nearest Neighbors (lazy learner, effect of K on overfitting vs underfitting, Euclidean distance); Decision Tree (Gini impurity, effect of max_depth, interpretability vs overfitting trade-off); Random Forest (bagging, why averaging uncorrelated trees reduces variance, feature importances); ROC curve and AUC (TPR vs FPR at all thresholds, when to use AUC over accuracy); and a full model comparison across all four classifiers.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -323,3 +333,5 @@ June 22, 2026 | Day 26 DONE
 June 23, 2026 | Day 27 DONE
 June 24, 2026 | Day 28 DONE
 June 25, 2026 | Day 29 DONE
+June 26, 2026 | Day 30 DONE
+June 27, 2026 | Day 31 DONE
