@@ -62,7 +62,9 @@ Challenge Details
 │   │
 │   └── Sklearn/
 │       ├── 01_Sklearn.ipynb
-│       └── 02_Sklearn.ipynb
+│       ├── 02_Sklearn.ipynb
+│       ├── 03_Sklearn.ipynb
+│       └── 04_Sklearn.ipynb
 │
 ├── Maths/
 │   ├── LinearAlgebra.ipynb
@@ -254,6 +256,11 @@ Challenge Details
 
 ---
 
+## Day 32 – Scikit-learn Model Evaluation & Tuning
+- **Sklearn 4: Model Evaluation & Tuning** (`Libraries/Sklearn/04_Sklearn.ipynb`) — Why a single train/test split is unreliable; K-Fold Cross-Validation (how it works, reading mean vs std, train/test gap as an overfitting signal); `cross_validate` for multiple metrics simultaneously; Learning Curves (how to read them, bias vs variance defined, four diagnostic patterns with fixes); Hyperparameter Tuning with `GridSearchCV` (what hyperparameters are, exhaustive search over a defined grid, `stepname__param` pipeline syntax, cost = n_combinations × n_folds); `RandomizedSearchCV` as a faster alternative (why random sampling works in large spaces, comparison table, using `scipy.stats` distributions); and the Precision vs Recall tradeoff (shifting the classification threshold, when to prioritize recall vs precision vs F1, decision table by use case).
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -335,3 +342,4 @@ June 24, 2026 | Day 28 DONE
 June 25, 2026 | Day 29 DONE
 June 26, 2026 | Day 30 DONE
 June 27, 2026 | Day 31 DONE
+June 29, 2026 | Day 32 DONE
