@@ -61,6 +61,7 @@ Challenge Details
 │   │   └── 06_Seaborn.ipynb
 │   │
 │   └── Sklearn/
+│       ├── 00_Sklearn.ipynb
 │       ├── 01_Sklearn.ipynb
 │       ├── 02_Sklearn.ipynb
 │       ├── 03_Sklearn.ipynb
@@ -261,6 +262,11 @@ Challenge Details
 
 ---
 
+## Day 33 – Error and Accuracy Metrics — Complete Reference
+- **Sklearn 0: Metrics Deep Dive** (`Libraries/Sklearn/00_Sklearn.ipynb`) — A complete reference for every major ML evaluation metric with formula, explanation, manual computation from scratch, and the sklearn equivalent. **Regression metrics:** MAE (average absolute error), MSE (squared errors, penalizes outliers), RMSE (back in original units), R-squared (variance explained, baseline = predicting the mean), MAPE (scale-independent percentage error, undefined at zero); residual plots and actual vs predicted visualization; summary comparison table. **Classification metrics:** confusion matrix (TP/TN/FP/FN), accuracy (and the accuracy trap on imbalanced data demonstrated), precision (minimize false alarms), recall/sensitivity (minimize missed cases), F1 score (harmonic mean — why it beats simple average), specificity (true negative rate), ROC-AUC (threshold-independent separability), log loss (penalizes confident wrong predictions). **Precision-Recall tradeoff** visualized across all thresholds. **Bias-Variance decomposition** demonstrated with polynomial regression at degrees 1/4/15 (underfitting, balanced, overfitting). **Cross-validation error** as a stable performance estimate. **Decision reference table** — which metric to use for each situation.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -343,3 +349,4 @@ June 25, 2026 | Day 29 DONE
 June 26, 2026 | Day 30 DONE
 June 27, 2026 | Day 31 DONE
 June 29, 2026 | Day 32 DONE
+June 30, 2026 | Day 33 DONE
