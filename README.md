@@ -72,6 +72,16 @@ Challenge Details
 │   ├── Stat&Probability.ipynb
 │   └── Calculus.ipynb
 │
+├── ML Models/
+│   └── Linear Regression/
+│       └── M1_LinearRegression_AmesHousing.ipynb
+│
+├── Datasets/
+│   └── HousePrice/
+│       ├── train.csv
+│       ├── test.csv
+│       └── sample_submission.csv
+│
 ├── Projects/
 │   └── (Future project directories will be added)
 │
@@ -267,6 +277,16 @@ Challenge Details
 
 ---
 
+## Day 34 – README Update
+- README-only update: added Day 33 entry and updated repository structure.
+
+---
+
+## Day 35 – ML Model 1: Linear Regression on Ames Housing
+- **Linear Regression — Real Dataset** (`ML Models/Linear Regression/M1_LinearRegression_AmesHousing.ipynb`) — End-to-end regression project on the Kaggle Ames Housing dataset predicting `SalePrice`. EDA: target distribution, log-transform to fix right skew, missing value analysis (most NaNs mean "no feature", not "unknown"), top feature correlations, neighborhood price spread. Missing value handling: three strategies — fill with `'None'`/`0` for absent features, neighborhood median for `LotFrontage`, mode for single missing values. Feature engineering: `TotalSF`, `TotalBathrooms`, `TotalPorchSF`, house age, remodel age, binary flags (`HasPool`, `HasGarage`, etc.), `QualCond`. Encoding: ordinal mapping for quality/condition columns (Ex=5…Po=1), one-hot for nominal categoricals (combined train+test before OHE to align columns). Log-transform skewed numeric features (`|skewness| > 0.75`). Linear Regression with `RobustScaler` (actual vs predicted, residual plot, coefficient interpretation). Regularization: `RidgeCV` and `LassoCV` to auto-find best alpha; Lasso feature selection (features zeroed out). CV RMSE comparison across all three models. Kaggle submission file generation.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -350,3 +370,5 @@ June 26, 2026 | Day 30 DONE
 June 27, 2026 | Day 31 DONE
 June 29, 2026 | Day 32 DONE
 June 30, 2026 | Day 33 DONE
+July 1, 2026  | Day 34 DONE 
+July 3, 2026  | Day 35 DONE
