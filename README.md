@@ -73,14 +73,18 @@ Challenge Details
 │   └── Calculus.ipynb
 │
 ├── ML Models/
-│   └── Linear Regression/
-│       └── M1_LinearRegression_AmesHousing.ipynb
+│   ├── Linear Regression/
+│   │   └── M1_LinearRegression_AmesHousing.ipynb
+│   └── Logistic Regression/
+│       └── LogisticRegression_Titanic.ipynb
 │
 ├── Datasets/
-│   └── HousePrice/
-│       ├── train.csv
-│       ├── test.csv
-│       └── sample_submission.csv
+│   ├── HousePrice/
+│   │   ├── train.csv
+│   │   ├── test.csv
+│   │   └── sample_submission.csv
+│   └── Titanic/
+│       └── Titanic.csv
 │
 ├── Projects/
 │   └── (Future project directories will be added)
@@ -287,6 +291,11 @@ Challenge Details
 
 ---
 
+## Day 36 – ML Model 2: Logistic Regression on Titanic
+- **Logistic Regression — Real Dataset** (`ML Models/Logistic Regression/LogisticRegression_Titanic.ipynb`) — End-to-end binary classification on the Titanic dataset predicting passenger survival. EDA: survival rates by sex, class, embarkation port, age, fare, and family size — confirming the "women and children first" pattern quantitatively. Missing value handling: age imputed using group medians by `pclass` and `sex`, embarked filled with mode, deck dropped (77% missing). Feature engineering: `family_size`, `is_alone`, `fare_per_person` (corrects for shared ticket prices), `is_child` (age < 16), `age_class` interaction term, binary sex encoding, OHE for embarkation port. Math: sigmoid function derivation (why not linear regression for classification), log loss, and odds ratio interpretation (`e^coef`). Model training with `Pipeline` + `StandardScaler`. Results: 82.7% accuracy, ROC-AUC 0.86, +21% over naive baseline. Confusion matrix and ROC curve. Coefficient interpretation — each coefficient read as an odds multiplier (e.g. being female multiplies survival odds by 3.4×, each class step up multiplies odds by 0.39×). Threshold tuning — precision/recall/F1 across all thresholds. Stratified 5-fold CV. Effect of regularization parameter `C` (inverse of alpha). Individual passenger prediction function.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -372,3 +381,4 @@ June 29, 2026 | Day 32 DONE
 June 30, 2026 | Day 33 DONE
 July 1, 2026  | Day 34 DONE 
 July 3, 2026  | Day 35 DONE
+July 4, 2026  | Day 36 DONE
