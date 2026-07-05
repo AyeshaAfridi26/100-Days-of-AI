@@ -75,8 +75,10 @@ Challenge Details
 ├── ML Models/
 │   ├── Linear Regression/
 │   │   └── M1_LinearRegression_AmesHousing.ipynb
-│   └── Logistic Regression/
-│       └── LogisticRegression_Titanic.ipynb
+│   ├── Logistic Regression/
+│   │   └── LogisticRegression_Titanic.ipynb
+│   └── Decision Tree Regressor/
+│       └── Decision Tree Regressor_AmesHousing.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -296,6 +298,11 @@ Challenge Details
 
 ---
 
+## Day 37 – ML Model 3: Decision Tree Regressor on Ames Housing
+- **Decision Tree Regressor — Real Dataset** (`ML Models/Decision Tree Regressor/Decision Tree Regressor_AmesHousing.ipynb`) — End-to-end regression project on the Ames Housing dataset using a Decision Tree. EDA and missing value handling: three-strategy fill (None/0 for absent features, neighborhood-median for `LotFrontage`, mode for single missing values) — most NaNs mean a feature is absent, not unknown. Feature engineering: `TotalSF`, `TotalBathrooms`, `TotalPorchSF`, house age, remodel age, binary flags. Encoding: ordinal mapping (Ex=5…None=0) for quality/condition columns to preserve natural ranking, one-hot encoding via `pd.get_dummies()` for nominal columns with no inherent order; log-transform of skewed features (`|skewness| > 0.75`). Decision Tree concepts: axis-aligned splits, MSE reduction criterion, how `max_depth` controls overfitting, how `min_samples_leaf` controls leaf granularity (higher = less overfit, higher bias). Visualization of trees at multiple depths side by side. `GridSearchCV` over 560 hyperparameter combinations (`max_depth`, `min_samples_leaf`, `min_samples_split`, `max_features`). Feature importance ranking.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -382,3 +389,4 @@ June 30, 2026 | Day 33 DONE
 July 1, 2026  | Day 34 DONE 
 July 3, 2026  | Day 35 DONE
 July 4, 2026  | Day 36 DONE
+July 5, 2026  | Day 37 DONE
