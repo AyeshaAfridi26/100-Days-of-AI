@@ -77,8 +77,10 @@ Challenge Details
 │   │   └── M1_LinearRegression_AmesHousing.ipynb
 │   ├── Logistic Regression/
 │   │   └── LogisticRegression_Titanic.ipynb
-│   └── Decision Tree Regressor/
-│       └── Decision Tree Regressor_AmesHousing.ipynb
+│   ├── Decision Tree Regressor/
+│   │   └── Decision Tree Regressor_AmesHousing.ipynb
+│   └── Decision Tree Classifier/
+│       └── M4_DecisionTreeClassifier_Titanic.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -303,6 +305,11 @@ Challenge Details
 
 ---
 
+## Day 38 – ML Model 4: Decision Tree Classifier on Titanic
+- **Decision Tree Classifier** (`ML Models/Decision Tree Classifier/M4_DecisionTreeClassifier_Titanic.ipynb`) — Classification on Titanic with identical preprocessing to M2 for a fair head-to-head comparison. Covers Gini impurity vs Entropy, overfitting demonstration (98% train vs 79% test accuracy on an unpruned tree), depth analysis plots (accuracy and ROC-AUC vs max_depth), GridSearchCV tuning, tree visualization with readable if-then rules, feature importance vs Logistic Regression coefficients, and a full metric comparison between M2 and M4.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -390,3 +397,4 @@ July 1, 2026  | Day 34 DONE
 July 3, 2026  | Day 35 DONE
 July 4, 2026  | Day 36 DONE
 July 5, 2026  | Day 37 DONE
+July 6, 2026  | Day 38 DONE
