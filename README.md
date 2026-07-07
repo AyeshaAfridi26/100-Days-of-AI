@@ -79,8 +79,10 @@ Challenge Details
 │   │   └── LogisticRegression_Titanic.ipynb
 │   ├── Decision Tree Regressor/
 │   │   └── Decision Tree Regressor_AmesHousing.ipynb
-│   └── Decision Tree Classifier/
-│       └── M4_DecisionTreeClassifier_Titanic.ipynb
+│   ├── Decision Tree Classifier/
+│   │   └── M4_DecisionTreeClassifier_Titanic.ipynb
+│   └── SVM/
+│       └── SVM_BreastCancer.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -310,6 +312,11 @@ Challenge Details
 
 ---
 
+## Day 39 – ML Model 5: Support Vector Machine on Breast Cancer
+- **SVM** (`ML Models/SVM/SVM_BreastCancer.ipynb`) — Classification on the Breast Cancer Wisconsin dataset (569 samples, 30 features). Covers the maximum margin concept, support vectors, soft margin and C parameter, why StandardScaler is mandatory (unscaled: 93% vs scaled: 98.3%), kernel comparison (Linear, RBF, Polynomial, Sigmoid), C and gamma tuning via GridSearchCV (best ROC-AUC 0.9977), permutation importance as a substitute for built-in feature importances, and a full comparison against Logistic Regression and Decision Tree.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -398,3 +405,4 @@ July 3, 2026  | Day 35 DONE
 July 4, 2026  | Day 36 DONE
 July 5, 2026  | Day 37 DONE
 July 6, 2026  | Day 38 DONE
+July 7, 2026  | Day 39 DONE
