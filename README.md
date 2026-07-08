@@ -81,8 +81,10 @@ Challenge Details
 │   │   └── Decision Tree Regressor_AmesHousing.ipynb
 │   ├── Decision Tree Classifier/
 │   │   └── M4_DecisionTreeClassifier_Titanic.ipynb
-│   └── SVM/
-│       └── SVM_BreastCancer.ipynb
+│   ├── SVM/
+│   │   └── SVM_BreastCancer.ipynb
+│   └── KNN/
+│       └── KNN_Iris.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -317,6 +319,11 @@ Challenge Details
 
 ---
 
+## Day 40 – ML Model 6: K-Nearest Neighbors on Iris
+- **KNN** (`ML Models/KNN/KNN_Iris.ipynb`) — Classification on the Iris dataset (150 samples, 3 classes). No training phase — stores all data and votes at prediction time. Covers distance metrics (Euclidean, Manhattan, Chebyshev), mandatory feature scaling, finding optimal K via CV, decision boundary visualization at K=1/5/15/30, GridSearchCV tuning, and Leave-One-Out CV.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -406,3 +413,4 @@ July 4, 2026  | Day 36 DONE
 July 5, 2026  | Day 37 DONE
 July 6, 2026  | Day 38 DONE
 July 7, 2026  | Day 39 DONE
+July 8, 2026  | Day 40 DONE
