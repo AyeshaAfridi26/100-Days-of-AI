@@ -83,8 +83,12 @@ Challenge Details
 │   │   └── M4_DecisionTreeClassifier_Titanic.ipynb
 │   ├── SVM/
 │   │   └── SVM_BreastCancer.ipynb
-│   └── KNN/
-│       └── KNN_Iris.ipynb
+│   ├── KNN/
+│   │   └── KNN_Iris.ipynb
+│   ├── KNN Regressor/
+│   │   └── KNNRegressor_CaliforniaHousing.ipynb
+│   └── Naive Bayes classifier/
+│       └── NaiveBayes_SpamDetection.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -324,6 +328,16 @@ Challenge Details
 
 ---
 
+## Day 41 – ML Model 7: KNN Regressor on California Housing
+- **KNN Regressor** (`ML Models/KNN Regressor/KNNRegressor_CaliforniaHousing.ipynb`) — Regression on California Housing (20,640 samples). Predicts by averaging K nearest neighbors' values. Covers geographic visualization, mandatory scaling, optimal K via CV, geographic feature impact, and comparison with Ridge Regression on speed and accuracy.
+
+---
+
+## Day 42 – ML Model 8: Naive Bayes on SMS Spam Detection
+- **Naive Bayes** (`ML Models/Naive Bayes classifier/NaiveBayes_SpamDetection.ipynb`) — Text classification on SMS Spam (5,572 messages). Bayes theorem built from scratch, then sklearn. Covers Bag of Words vs TF-IDF, Multinomial/Bernoulli/Complement NB variants, class imbalance, threshold tuning, spam-indicating words, and comparison with Logistic Regression.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -414,3 +428,5 @@ July 5, 2026  | Day 37 DONE
 July 6, 2026  | Day 38 DONE
 July 7, 2026  | Day 39 DONE
 July 8, 2026  | Day 40 DONE
+July 9, 2026  | Day 41 DONE
+July 10, 2026 | Day 42 DONE
