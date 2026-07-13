@@ -87,8 +87,10 @@ Challenge Details
 │   │   └── KNN_Iris.ipynb
 │   ├── KNN Regressor/
 │   │   └── KNNRegressor_CaliforniaHousing.ipynb
-│   └── Naive Bayes classifier/
-│       └── NaiveBayes_SpamDetection.ipynb
+│   ├── Naive Bayes classifier/
+│   │   └── NaiveBayes_SpamDetection.ipynb
+│   └── Xgboost/
+│       └── GradientBoosting_AmesHousing_1.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -338,6 +340,11 @@ Challenge Details
 
 ---
 
+## Day 43 – ML Model 9: Gradient Boosting on Ames Housing
+- **Gradient Boosting** (`ML Models/Xgboost/GradientBoosting_AmesHousing_1.ipynb`) — Regression on Ames Housing. Each tree corrects residuals of all previous trees. Covers learning rate vs n_estimators tradeoff, staged_predict to find optimal tree count, partial dependence plots, and comparison against Ridge and Decision Tree.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -430,3 +437,4 @@ July 7, 2026  | Day 39 DONE
 July 8, 2026  | Day 40 DONE
 July 9, 2026  | Day 41 DONE
 July 10, 2026 | Day 42 DONE
+July 13, 2026 | Day 43 DONE
