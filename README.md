@@ -90,7 +90,8 @@ Challenge Details
 │   ├── Naive Bayes classifier/
 │   │   └── NaiveBayes_SpamDetection.ipynb
 │   └── Xgboost/
-│       └── GradientBoosting_AmesHousing_1.ipynb
+│       ├── GradientBoosting_AmesHousing_1.ipynb
+│       └── GradientBoosting_AmesHousing_2.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -345,6 +346,11 @@ Challenge Details
 
 ---
 
+## Day 44 – Gradient Boosting Continued
+- Revised and extended the Gradient Boosting notebook (`GradientBoosting_AmesHousing_2.ipynb`) — cleaned up preprocessing pipeline, refined model comparison against Ridge and Decision Tree, and consolidated the staged_predict analysis and partial dependence plots.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -438,3 +444,4 @@ July 8, 2026  | Day 40 DONE
 July 9, 2026  | Day 41 DONE
 July 10, 2026 | Day 42 DONE
 July 13, 2026 | Day 43 DONE
+July 14, 2026 | Day 44 DONE
