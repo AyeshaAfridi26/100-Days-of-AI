@@ -89,9 +89,11 @@ Challenge Details
 │   │   └── KNNRegressor_CaliforniaHousing.ipynb
 │   ├── Naive Bayes classifier/
 │   │   └── NaiveBayes_SpamDetection.ipynb
-│   └── Xgboost/
-│       ├── GradientBoosting_AmesHousing_1.ipynb
-│       └── GradientBoosting_AmesHousing_2.ipynb
+│   ├── Xgboost/
+│   │   ├── GradientBoosting_AmesHousing_1.ipynb
+│   │   └── GradientBoosting_AmesHousing_2.ipynb
+│   └── Random Forest/
+│       └── RandomForestClassifier_Titanic.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -351,6 +353,11 @@ Challenge Details
 
 ---
 
+## Day 45 – ML Model 10: Random Forest Classifier on Titanic
+- **Random Forest** (`ML Models/Random Forest/RandomForestClassifier_Titanic.ipynb`) — Classification on Titanic, completing the chain: Logistic Regression → Decision Tree → Random Forest. Covers bootstrap sampling, OOB (out-of-bag) error as a free validation estimate, effect of n_estimators (performance stabilizes after ~100 trees), GridSearchCV tuning, built-in vs permutation importance, and full comparison against M2 and M4.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -445,3 +452,4 @@ July 9, 2026  | Day 41 DONE
 July 10, 2026 | Day 42 DONE
 July 13, 2026 | Day 43 DONE
 July 14, 2026 | Day 44 DONE
+July 15, 2026 | Day 45 DONE
