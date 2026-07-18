@@ -93,7 +93,8 @@ Challenge Details
 │   │   ├── GradientBoosting_AmesHousing_1.ipynb
 │   │   └── GradientBoosting_AmesHousing_2.ipynb
 │   └── Random Forest/
-│       └── RandomForestClassifier_Titanic.ipynb
+│       ├── RandomForestClassifier_Titanic.ipynb
+│       └── RandomForestRegressor_AmesHousing_2.ipynb
 │
 ├── Datasets/
 │   ├── HousePrice/
@@ -358,6 +359,11 @@ Challenge Details
 
 ---
 
+## Day 46 – ML Model 11: Random Forest Regressor on Ames Housing
+- **Random Forest Regressor** (`ML Models/Random Forest/RandomForestRegressor_AmesHousing_2.ipynb`) — Regression on Ames Housing, completing the full chain: Ridge → Decision Tree → Gradient Boosting → XGBoost → Random Forest. Covers OOB R-squared as a free validation estimate, n_estimators plateau analysis, max_features tuning, GridSearchCV, built-in vs permutation importance, partial dependence comparison against Gradient Boosting, and a full 5-model comparison across the entire regression series.
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -453,3 +459,4 @@ July 10, 2026 | Day 42 DONE
 July 13, 2026 | Day 43 DONE
 July 14, 2026 | Day 44 DONE
 July 15, 2026 | Day 45 DONE
+July 17, 2026 | Day 46 DONE
