@@ -108,7 +108,7 @@ Challenge Details
 │   └── (Future project directories will be added)
 │
 ├── Notes/
-│   └── (Learning notes and summaries)
+│   └── Pythion Libraries - Numpy - Pandas.docx
 │
 └── README.md
 ```
@@ -364,6 +364,10 @@ Challenge Details
 
 ---
 
+## Day 47 – NumPy & Pandas Notes
+- Compiled notes on NumPy and Pandas (`Notes/Pythion Libraries - Numpy - Pandas.docx`)
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -460,3 +464,4 @@ July 13, 2026 | Day 43 DONE
 July 14, 2026 | Day 44 DONE
 July 15, 2026 | Day 45 DONE
 July 17, 2026 | Day 46 DONE
+July 19, 2026 | Day 47 DONE
