@@ -108,7 +108,8 @@ Challenge Details
 │   └── (Future project directories will be added)
 │
 ├── Notes/
-│   └── Pythion Libraries - Numpy - Pandas.docx
+│   ├── Pythion Libraries - Numpy - Pandas.docx
+│   └── Python Libraries - Sklearn.docx
 │
 └── README.md
 ```
@@ -366,6 +367,12 @@ Challenge Details
 
 ## Day 47 – NumPy & Pandas Notes
 - Compiled notes on NumPy and Pandas (`Notes/Pythion Libraries - Numpy - Pandas.docx`)
+
+---
+
+## Day 48 – Sklearn Notes
+- Compiled notes on Scikit-learn (`Notes/Python Libraries - Sklearn.docx`) 
+
 ---
 
 ##  How to Use This Repository
@@ -465,3 +472,4 @@ July 14, 2026 | Day 44 DONE
 July 15, 2026 | Day 45 DONE
 July 17, 2026 | Day 46 DONE
 July 19, 2026 | Day 47 DONE
+July 20, 2026 | Day 48 DONE
