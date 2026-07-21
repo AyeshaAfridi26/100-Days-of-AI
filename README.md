@@ -109,7 +109,8 @@ Challenge Details
 │
 ├── Notes/
 │   ├── Pythion Libraries - Numpy - Pandas.docx
-│   └── Python Libraries - Sklearn.docx
+│   ├── Python Libraries - Sklearn.docx
+│   └── Python Libraries - Matplotlib - Seaborn.docx
 │
 └── README.md
 ```
@@ -375,6 +376,11 @@ Challenge Details
 
 ---
 
+## Day 49 – Matplotlib & Seaborn Notes
+- Compilednotes on Matplotlib and Seaborn (`Notes/Python Libraries - Matplotlib - Seaborn.docx`)
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -473,3 +479,4 @@ July 15, 2026 | Day 45 DONE
 July 17, 2026 | Day 46 DONE
 July 19, 2026 | Day 47 DONE
 July 20, 2026 | Day 48 DONE
+July 21, 2026 | Day 49 DONE
