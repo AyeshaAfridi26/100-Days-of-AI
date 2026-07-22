@@ -108,9 +108,13 @@ Challenge Details
 │   └── (Future project directories will be added)
 │
 ├── Notes/
-│   ├── Pythion Libraries - Numpy - Pandas.docx
-│   ├── Python Libraries - Sklearn.docx
-│   └── Python Libraries - Matplotlib - Seaborn.docx
+│   ├── Python/
+│   │   └── Python.pptx
+│   └── Python Libraries/
+│       ├── Pythion Libraries - Numpy - Pandas.docx
+│       ├── Python Libraries - Sklearn.docx
+│       ├── Python Libraries - Matplotlib - Seaborn.docx
+│       └── Python Library - Final.docx
 │
 └── README.md
 ```
@@ -377,7 +381,12 @@ Challenge Details
 ---
 
 ## Day 49 – Matplotlib & Seaborn Notes
-- Compilednotes on Matplotlib and Seaborn (`Notes/Python Libraries - Matplotlib - Seaborn.docx`)
+- Compiled notes on Matplotlib and Seaborn (`Notes/Python Libraries/Python Libraries - Matplotlib - Seaborn.docx`)
+
+---
+
+## Day 50 – Python Libraries Final Notes
+- Compiled final  notes on all Python libraries (`Notes/Python Libraries/Python Library - Final.docx`) — wraps up the full libraries series.
 
 ---
 
@@ -480,3 +489,4 @@ July 17, 2026 | Day 46 DONE
 July 19, 2026 | Day 47 DONE
 July 20, 2026 | Day 48 DONE
 July 21, 2026 | Day 49 DONE
+July 22, 2026 | Day 50 DONE
