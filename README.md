@@ -110,11 +110,13 @@ Challenge Details
 ├── Notes/
 │   ├── Python/
 │   │   └── Python.pptx
-│   └── Python Libraries/
-│       ├── Pythion Libraries - Numpy - Pandas.docx
-│       ├── Python Libraries - Sklearn.docx
-│       ├── Python Libraries - Matplotlib - Seaborn.docx
-│       └── Python Library - Final.docx
+│   ├── Python Libraries/
+│   │   ├── Pythion Libraries - Numpy - Pandas.docx
+│   │   ├── Python Libraries - Sklearn.docx
+│   │   ├── Python Libraries - Matplotlib - Seaborn.docx
+│   │   └── Python Library - Final.docx
+│   └── ML Models/
+│       └── ML Models - linear, Ridge, Lasso, logistic.docx
 │
 └── README.md
 ```
@@ -390,6 +392,11 @@ Challenge Details
 
 ---
 
+## Day 51 – ML Models Notes (Part 1)
+- Compiled notes on Linear, Ridge, Lasso, and Logistic Regression (`Notes/ML Models/ML Models - linear, Ridge, Lasso, logistic.docx`).
+
+---
+
 ##  How to Use This Repository
 
 1. **Clone the repository:**
@@ -490,3 +497,4 @@ July 19, 2026 | Day 47 DONE
 July 20, 2026 | Day 48 DONE
 July 21, 2026 | Day 49 DONE
 July 22, 2026 | Day 50 DONE
+July 24, 2026 | Day 51 DONE
